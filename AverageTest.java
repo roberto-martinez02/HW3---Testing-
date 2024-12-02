@@ -9,7 +9,7 @@ class AverageTest {
 	void testAverage() {
 		Average avg = new Average();
 
-		assertEquals(2, avg.average(3, new int[]{1, 2, 3, 4, 5}));
+	assertEquals(2, avg.average(3, new int[]{1, 2, 3, 4, 5}));
         assertEquals(3, avg.average(5, new int[]{1, 2, 3, 4, 5}));
         assertEquals(2, avg.average(7, new int[]{1, 2, 3}));
         assertEquals(0, avg.average(0, new int[]{1, 2, 3}));
